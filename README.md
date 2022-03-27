@@ -1,4 +1,4 @@
-Template for building out experiments with Dapps/testing new libraries
+React template for building out experiments with Dapps/testing new libraries
 
 Simplified template for Dapps- routing is implemented and single page style is already implemented in case you want to build it out more. Add more components and link them to the navbar at your convenience. Components folder is there to help you stay organized....good....good.....
 
