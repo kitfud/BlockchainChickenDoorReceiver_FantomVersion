@@ -6,15 +6,15 @@ Wallet connect component to Ethers.js allows you to access a provider, account, 
 
 For setup (other's use) after cloning the repo:
 
-In src folder you need to create a folder (chain-info) with a .json file in it: src-> chain-info -> abi.json
+In src folder you need to change abi.json file so it contains the abi of contract you want to interact with: src-> chain-info -> abi.json
 
-abi.json will contain the abi for the smartcontract you want to interact with, it will look something like {"abi":{...}}, and you will destructure this variable out for use in App.js. Note, you can grab this info from any verified contract on etherscan! Or, if you are deploying locally to a chain you'll typically have the abi within something like a 'build' folder.
+abi.json will contain the abi for the smartcontract you want to interact with ~ it will look something like {"abi":{...}}, and you will destructure this variable out for use in App.js. Note, you can grab this info from any verified contract on etherscan! Or, if you are deploying locally to a chain you'll typically have the abi within something like a 'build' folder.
 
 You also neeed to create a .env file at the top most level folder with the following variable, along with the address of the smart contract you want to interact with:
 
 REACT_APP_CONTRACTADDRESS = '0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
-This will keep this info private to you- if that matters at all.  
+This will keep this info private to you- if that matters at all. 
 
 Enjoy. 
 
