@@ -16,7 +16,10 @@ REACT_APP_CONTRACTADDRESS = '0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 This will keep this info private to you- if that matters at all. 
 
-Enjoy. 
+After you handle all the file changes run->
+npm install
+npm start
+
 
 
 
