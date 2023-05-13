@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 
 import { makeStyles } from '@mui/styles';
-
+import SensorDoorIcon from '@mui/icons-material/SensorDoor';
 const useStyles = makeStyles((theme) => ({
     navlinks: {
       marginLeft: theme.spacing(5),
@@ -42,8 +42,9 @@ const Navbar =() => {
       <CssBaseline />
       <Toolbar>
         <IconButton href="/">
+        <SensorDoorIcon/>
         <Typography variant="h4" className={classes.logo} color="white">
-          FlowWallet 
+          Blockchain Door
         </Typography>
         </IconButton>
       
@@ -56,13 +57,12 @@ const Navbar =() => {
 
              <div className={classes.navlinks} >
             <Link to="flow" className={classes.link}>
-              FLOW
+              Connect To Door
             </Link>     
           </div>   
 
       </Toolbar>
     </AppBar>
-      
       </>
  
   );

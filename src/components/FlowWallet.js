@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, createContext, useContext } from "react";
+import { useState, createContext, useContext,useEffect } from "react";
 import {ContractContext } from '../App';
 import WalletConnect from './usefulComponents/WalletConnect';
 import { ethers } from 'ethers'
@@ -16,11 +16,19 @@ const FlowWallet = () => {
  const abi = contractinfo.abi;
  const contractaddress = contractinfo.address;
 
+//  useEffect(()=>{
+//   setProvider(new ethers.providers.Web3Provider(window.ethereum))
+//   let newcontract = new ethers.Contract(contractaddress,abi,provider)
+//   setContract(newcontract)
+//   console.log(contract)
+
+//  },[])
 
   return (
     <div>
        
         <WalletConnect
+        contract={contract}
         defaultAccount={defaultAccount}
         setDefaultAccount={setDefaultAccount}
         walletBalance={walletBalance}
@@ -28,11 +36,15 @@ const FlowWallet = () => {
         setSigner = {setSigner}
         setContract={setContract}
         provider = {provider}
-        setProvider={setProvider}     
+        setProvider={setProvider}   
+        signer={signer}  
         />
 
 
 
+
+
+   
 
 
 

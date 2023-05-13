@@ -6,8 +6,8 @@ import {
     Container,
     IconButton
   } from '@mui/material'
-  import SavingsIcon from '@mui/icons-material/Savings';
 
+  import SensorDoorIcon from '@mui/icons-material/SensorDoor';
 const Footer = () => {
   return (
     <AppBar position="static" color="primary" >
@@ -15,11 +15,11 @@ const Footer = () => {
 
       <Toolbar sx={{justifyContent:'center'}}>
       <IconButton href="/">
-       <SavingsIcon/>
+       <SensorDoorIcon/>
         </IconButton>
 
         <Typography color="inherit">
-          &copy; 2022 Kit Fuderich
+          &copy; 2023 Kit Fuderich
         </Typography>
       </Toolbar>
 
