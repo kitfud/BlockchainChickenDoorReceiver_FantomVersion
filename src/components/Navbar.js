@@ -44,19 +44,19 @@ const Navbar =() => {
         <IconButton href="/">
         <SensorDoorIcon/>
         <Typography variant="h4" className={classes.logo} color="white">
-          Blockchain Door
+          Blockchain Door [Receiver]
         </Typography>
         </IconButton>
       
       
           <div className={classes.navlinks} >
             <Link to="/" className={classes.link}>
-              HOME
+              About
             </Link>     
           </div> 
 
              <div className={classes.navlinks} >
-            <Link to="flow" className={classes.link}>
+            <Link to="hardware" className={classes.link}>
               Connect To Door
             </Link>     
           </div>   

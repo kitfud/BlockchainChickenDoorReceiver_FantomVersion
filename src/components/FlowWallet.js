@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, createContext, useContext,useEffect } from "react";
 import {ContractContext } from '../App';
-import WalletConnect from './usefulComponents/WalletConnect';
+import HardwareConnect from './usefulComponents/HardwareConnect';
 import { ethers } from 'ethers'
 
 const FlowWallet = () => {
@@ -27,7 +27,7 @@ const FlowWallet = () => {
   return (
     <div>
        
-        <WalletConnect
+        <HardwareConnect
         contract={contract}
         defaultAccount={defaultAccount}
         setDefaultAccount={setDefaultAccount}
