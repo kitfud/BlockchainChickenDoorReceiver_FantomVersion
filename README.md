@@ -48,7 +48,7 @@ The original chicken coop door relied on a momentary push button to complete a c
   <img src="https://raw.githubusercontent.com/kitfud/BlockchainChickenDoorReceiver_FantomVersion/master/Blockchain_Door_Screenshots/HardwarePics/SolderedWiresToggle.jpg" alt="make1"/>
 </p>
 
-The completed remote door module is pictured below- the Arduino with xBee wireless receiver listens for a signal being passed form the transitter (teathered to a computer and listening to the blockchain-specifically Fantom Opera Mainnet). When it get's a signal it transmitts a signal to toggle door. 
+The completed remote door module is pictured below- the Arduino with xBee wireless receiver listens for a signal being passed form the transitter (teathered to a computer and listening to the blockchain-specifically Fantom Opera Mainnet). When it get's a signal via USB serial it transmitts wirelessly to a remote module to toggle the coop door. 
  <p align="center">
   <img src="https://raw.githubusercontent.com/kitfud/BlockchainChickenDoorReceiver_FantomVersion/master/Blockchain_Door_Screenshots/HardwarePics/CloseUpDoorModule.jpg" alt="make2"/>
 </p>
